@@ -21,7 +21,5 @@ These projects are not part of my academic work. They represent personal explora
 This is a personal learning space, but suggestions are welcome.
 Feel free to open an issue or contact me.
 
-📥 Enrique Carnerero
-Biotechnologist & Bioinformatics Scientist
-Linkedin: www.linkedin.com/in/enrique-carnerero
+📥 Enrique Carnerero Bocanegra | Biotechnologist & Bioinformatics Scientist | Linkedin: www.linkedin.com/in/enrique-carnerero
 
