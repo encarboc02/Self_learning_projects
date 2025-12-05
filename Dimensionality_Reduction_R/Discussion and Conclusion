@@ -1,0 +1,21 @@
+This project evaluates the efficiency of different dimensionality reduction methods (linear (PCA) and non-linear (t-SNE, ISOMAP, UMAP)) to separate Parkinson's disease patients (Class 1) from healthy subjects (Class 0) using acoustic features.
+
+  - Methodology & Data Preparation
+    - Dataset: 22 acoustic features (Jitter, Shimmer, HNR, etc.) derived from the Parkinson's Speech Dataset.
+    - Removed Columns: name (identifier) and status (target variable) were eliminated before processing.
+    - Data Standardization: Each featured was centered and scaled to avoid variables with larger magnitudes from controlling distance calculations in PCA, t-SNE, ISOMAP, and UMAP
+
+  - PCA (Principal Component Analysis)
+    - PC1 explains 58.9% of variance; PC2 explains 11.3%. Together, they cover 70.2% of total variance.
+    - Clustering is ineffective: there is significant overlap between data points from both categories. Linear axes of variation do not align with class distinction.
+
+  - Non-Linear Techniques
+    - t-SNE: Displays moderate clustering, but classes continue to overlap, especially in the center. Captures local relations but does not separate classes globally.
+    - ISOMAP: Similar to PCA; dispersed with no clear separation. Maintaining global isometric structure does not disclose class boundaries.
+    - UMAP (Euclidean & Manhattan): Provides the clearest structure. Status 0 (Red) separates left/down, Status 1 (Blue) separates right/up. Maps non-linear space successfully, producing the most visually distinctive clusters.
+
+Closing Remarks
+  
+  - Acoustic feature relationships distinguishing healthy vs Parkinson’s subjects are complex and non-linear.
+  - Linear reduction (PCA) does not distinguish between classes; the largest variance is unrelated to clinical status.
+  - UMAP provides better separation, suggesting non-linear machine learning models should be emphasized for classification.
