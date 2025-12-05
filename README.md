@@ -1,4 +1,4 @@
-# README.MD - Self_learning_projects
+# Self_Learning_Projects
 This repository contains a collection of self-learning projects I developed to improve my skills in:
   - Bioinformatics
   - Machine Learning
