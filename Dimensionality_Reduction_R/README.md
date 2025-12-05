@@ -1,4 +1,4 @@
-# README.md — Dimensionality Reduction Comparison
+# Dimensionality Reduction Comparison
 🎯 Project: Visual Comparison of Dimensionality Reduction Techniques in R
 
 This repository contains a practical exercise in dimensionality reduction, where five methods are applied and compared visually on the same dataset:
