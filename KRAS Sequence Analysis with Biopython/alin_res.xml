@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_784857</BlastOutput_query-ID>
+  <BlastOutput_query-def>sp|P01116|RASK_HUMAN GTPase KRas OS=Homo sapiens OX=9606 GN=KRAS PE=1 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>189</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_784857</Iteration_query-ID>
+  <Iteration_query-def>sp|P01116|RASK_HUMAN GTPase KRas OS=Homo sapiens OX=9606 GN=KRAS PE=1 SV=1</Iteration_query-def>
+  <Iteration_query-len>189</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001356715.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform a [Homo sapiens] &gt;ref|NP_203524.1| GTPase KRas isoform a [Homo sapiens] &gt;ref|XP_003313842.1| GTPase KRas isoform X1 [Pan troglodytes] &gt;ref|XP_004592683.1| GTPase KRas isoform X1 [Ochotona princeps] &gt;ref|XP_004634620.1| GTPase KRas isoform X1 [Octodon degus] &gt;ref|XP_005379157.1| PREDICTED: GTPase KRas [Chinchilla lanigera] &gt;ref|XP_005570435.1| GTPase KRas isoform X1 [Macaca fascicularis] &gt;ref|XP_005570436.1| GTPase KRas isoform X1 [Macaca fascicularis] &gt;ref|XP_005653208.1| GTPase KRas isoform X1 [Sus scrofa] &gt;ref|XP_007966152.1| GTPase KRas isoform X1 [Chlorocebus sabaeus] &gt;ref|XP_007966153.1| GTPase KRas isoform X1 [Chlorocebus sabaeus] &gt;ref|XP_009423991.1| GTPase KRas isoform X1 [Pan troglodytes] &gt;ref|XP_011913652.1| PREDICTED: GTPase KRas isoform X1 [Cercocebus atys] &gt;ref|XP_011913653.1| PREDICTED: GTPase KRas isoform X1 [Cercocebus atys] &gt;ref|XP_012312582.1| GTPase KRas isoform X1 [Aotus nancymaae] &gt;ref|XP_012312583.1| GTPase KRas isoform X1 [Aotus nancymaae] &gt;ref|XP_012312584.1| GTPase KRas isoform X1 [Aotus nancymaae] &gt;ref|XP_012312587.1| GTPase KRas isoform X1 [Aotus nancymaae] &gt;ref|XP_012928011.1| GTPase KRas isoform X1 [Heterocephalus glaber] &gt;ref|XP_012928012.1| GTPase KRas isoform X1 [Heterocephalus glaber] &gt;ref|XP_013008519.1| GTPase KRas isoform X1 [Cavia porcellus] &gt;ref|XP_013008520.1| GTPase KRas isoform X1 [Cavia porcellus] &gt;ref|XP_013849234.1| GTPase KRas isoform X1 [Sus scrofa] &gt;ref|XP_014312991.1| GTPase KRas isoform X1 [Myotis lucifugus] &gt;ref|XP_014399743.1| PREDICTED: GTPase KRas isoform X2 [Myotis brandtii] &gt;ref|XP_014399744.1| PREDICTED: GTPase KRas isoform X2 [Myotis brandtii] &gt;ref|XP_015006625.1| GTPase KRas isoform X1 [Macaca mulatta] &gt;ref|XP_015006626.1| GTPase KRas isoform X1 [Macaca mulatta] &gt;ref|XP_017378508.1| GTPase KRas isoform X1 [Cebus imitator] &gt;ref|XP_017378509.1| GTPase KRas isoform X1 [Cebus imitator] &gt;ref|XP_017720000.1| PREDICTED: GTPase KRas isoform X1 [Rhinopithecus bieti] &gt;ref|XP_017801234.1| GTPase KRas isoform X1 [Papio anubis] &gt;ref|XP_021777812.1| GTPase KRas isoform X1 [Papio anubis] &gt;ref|XP_023064821.1| GTPase KRas isoform X1 [Piliocolobus tephrosceles] &gt;ref|XP_023064822.1| GTPase KRas isoform X1 [Piliocolobus tephrosceles] &gt;ref|XP_023611273.1| GTPase KRas isoform X1 [Myotis lucifugus] &gt;ref|XP_023611274.1| GTPase KRas isoform X1 [Myotis lucifugus] &gt;ref|XP_024113321.2| GTPase KRas isoform X1 [Pongo abelii] &gt;ref|XP_024113322.2| GTPase KRas isoform X1 [Pongo abelii] &gt;ref|XP_025257001.1| GTPase KRas isoform X2 [Theropithecus gelada] &gt;ref|XP_030660363.1| GTPase KRas isoform X1 [Nomascus leucogenys] &gt;ref|XP_030794568.1| GTPase KRas isoform X1 [Rhinopithecus roxellana] &gt;ref|XP_030794569.1| GTPase KRas isoform X1 [Rhinopithecus roxellana] &gt;ref|XP_032015749.1| GTPase KRas isoform X1 [Hylobates moloch] &gt;ref|XP_032143112.1| GTPase KRas isoform X1 [Sapajus apella] &gt;ref|XP_032143122.1| GTPase KRas isoform X1 [Sapajus apella] &gt;ref|XP_032143148.1| GTPase KRas isoform X1 [Sapajus apella] &gt;ref|XP_033078545.1| GTPase KRas isoform X3 [Trachypithecus francoisi] &gt;ref|XP_033078546.1| GTPase KRas isoform X3 [Trachypithecus francoisi] &gt;ref|XP_034792052.1| GTPase KRas isoform X1 [Pan paniscus] &gt;ref|XP_034792055.1| GTPase KRas isoform X1 [Pan paniscus] &gt;ref|XP_035111950.1| GTPase KRas isoform X1 [Callithrix jacchus] &gt;ref|XP_036108910.1| GTPase KRas isoform X1 [Molossus molossus] &gt;ref|XP_036108912.1| GTPase KRas isoform X1 [Molossus molossus] &gt;ref|XP_036152626.1| GTPase KRas isoform X1 [Myotis myotis] &gt;ref|XP_036152628.1| GTPase KRas isoform X1 [Myotis myotis] &gt;ref|XP_036315104.1| GTPase KRas isoform X1 [Pipistrellus kuhlii] &gt;ref|XP_036315105.1| GTPase KRas isoform X1 [Pipistrellus kuhlii] &gt;ref|XP_036315108.1| GTPase KRas isoform X1 [Pipistrellus kuhlii] &gt;ref|XP_037059894.1| GTPase KRas isoform X1 [Peromyscus leucopus] &gt;ref|XP_037059895.1| GTPase KRas isoform X1 [Peromyscus leucopus] &gt;ref|XP_039327841.1| GTPase KRas isoform X1 [Saimiri boliviensis] &gt;ref|XP_039327843.1| GTPase KRas isoform X1 [Saimiri boliviensis] &gt;ref|XP_047643316.1| GTPase KRas isoform X1 [Phacochoerus africanus] &gt;ref|XP_047643317.1| GTPase KRas isoform X1 [Phacochoerus africanus] &gt;ref|XP_047643319.1| GTPase KRas isoform X1 [Phacochoerus africanus] &gt;ref|XP_051011547.1| GTPase KRas isoform X1 [Acomys russatus] &gt;ref|XP_051011548.1| GTPase KRas isoform X1 [Acomys russatus] &gt;ref|XP_052577345.1| GTPase KRas isoform X1 [Peromyscus californicus insignis] &gt;ref|XP_054094245.1| GTPase KRas isoform X1 [Callithrix jacchus] &gt;ref|XP_054094247.1| GTPase KRas isoform X1 [Callithrix jacchus] &gt;ref|XP_054299121.1| GTPase KRas isoform X1 [Pongo pygmaeus] &gt;ref|XP_054299125.1| GTPase KRas isoform X1 [Pongo pygmaeus] &gt;ref|XP_054575190.1| GTPase KRas isoform X1 [Eptesicus fuscus] &gt;ref|XP_054575191.1| GTPase KRas isoform X1 [Eptesicus fuscus] &gt;ref|XP_054575193.1| GTPase KRas isoform X1 [Eptesicus fuscus] &gt;ref|XP_058511703.1| GTPase KRas isoform X1 [Ochotona princeps] &gt;ref|XP_059112331.1| GTPase KRas isoform X1 [Peromyscus eremicus] &gt;ref|XP_059538380.1| GTPase KRas isoform X1 [Myotis daubentonii] &gt;ref|XP_059538381.1| GTPase KRas isoform X1 [Myotis daubentonii] &gt;ref|XP_059538383.1| GTPase KRas isoform X1 [Myotis daubentonii] &gt;ref|XP_059538384.1| GTPase KRas isoform X1 [Myotis daubentonii] &gt;ref|XP_063094478.1| GTPase KRas isoform X1 [Cavia porcellus] &gt;ref|XP_063550181.1| GTPase KRas isoform X3 [Gorilla gorilla gorilla] &gt;ref|XP_063550182.1| GTPase KRas isoform X3 [Gorilla gorilla gorilla] &gt;ref|XP_070266640.1| GTPase KRas isoform X2 [Myotis yumanensis] &gt;ref|XP_070928144.1| GTPase KRas isoform X3 [Macaca nemestrina] &gt;ref|XP_070928145.1| GTPase KRas isoform X3 [Macaca nemestrina] &gt;ref|XP_074259032.1| GTPase KRas isoform X1 [Saimiri boliviensis] &gt;ref|XP_076424408.1| GTPase KRas isoform X1 [Peromyscus maniculatus bairdii] &gt;ref|XP_077808870.1| GTPase KRas isoform X1 [Macaca mulatta] &gt;sp|P01116.1| RecName: Full=GTPase KRas; AltName: Full=K-Ras 2; AltName: Full=Ki-Ras; AltName: Full=c-K-ras; AltName: Full=c-Ki-ras; Contains: RecName: Full=GTPase KRas, N-terminally processed; Flags: Precursor [Homo sapiens] &gt;emb|CAK6443599.1| unnamed protein product [Pipistrellus nathusii] &gt;gb|AAB59445.1| cellular transforming proto-oncogene [Homo sapiens] &gt;gb|ABY87538.1| v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog [Homo sapiens] &gt;gb|AGC09594.1| v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog [Homo sapiens] &gt;gb|EAW96511.1| v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog, isoform CRA_a [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001356715</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>7.74682e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_003470499.2|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Cavia porcellus] &gt;ref|XP_004634619.1| GTPase KRas isoform X3 [Octodon degus] &gt;ref|XP_013849247.1| GTPase KRas isoform X3 [Sus scrofa] &gt;ref|XP_014399745.1| PREDICTED: GTPase KRas isoform X3 [Myotis brandtii] &gt;ref|XP_015863807.3| GTPase KRas isoform X3 [Peromyscus maniculatus bairdii] &gt;ref|XP_021569740.1| GTPase KRas isoform X1 [Carlito syrichta] &gt;ref|XP_023611276.1| GTPase KRas isoform X3 [Myotis lucifugus] &gt;ref|XP_028747629.1| GTPase KRas isoform X3 [Peromyscus leucopus] &gt;ref|XP_036108913.1| GTPase KRas isoform X3 [Molossus molossus] &gt;ref|XP_036152629.1| GTPase KRas isoform X3 [Myotis myotis] &gt;ref|XP_040843364.1| GTPase KRas isoform X2 [Ochotona curzoniae] &gt;ref|XP_047643320.1| GTPase KRas isoform X3 [Phacochoerus africanus] &gt;ref|XP_052577347.1| GTPase KRas isoform X3 [Peromyscus californicus insignis] &gt;ref|XP_059112333.1| GTPase KRas isoform X3 [Peromyscus eremicus] &gt;ref|XP_059538385.1| GTPase KRas isoform X3 [Myotis daubentonii] &gt;ref|XP_070266641.1| GTPase KRas isoform X3 [Myotis yumanensis]</Hit_def>
+  <Hit_accession>XP_003470499</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.504</Hsp_bit-score>
+      <Hsp_score>1007</Hsp_score>
+      <Hsp_evalue>9.3088e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_063550180.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_063550180</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>9.92765e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|7VVB|A</Hit_id>
+  <Hit_def>Chain A, GTPase KRas [Homo sapiens]</Hit_def>
+  <Hit_accession>7VVB_A</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>1.02207e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_007966155.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Chlorocebus sabaeus] &gt;ref|XP_011802386.1| PREDICTED: GTPase KRas isoform X1 [Colobus angolensis palliatus] &gt;ref|XP_011850190.1| PREDICTED: GTPase KRas [Mandrillus leucophaeus] &gt;ref|XP_011913655.1| PREDICTED: GTPase KRas isoform X3 [Cercocebus atys] &gt;ref|XP_012312590.1| GTPase KRas isoform X3 [Aotus nancymaae] &gt;ref|XP_015006627.1| GTPase KRas isoform X3 [Macaca mulatta] &gt;ref|XP_017378510.1| GTPase KRas isoform X3 [Cebus imitator] &gt;ref|XP_017720002.1| PREDICTED: GTPase KRas isoform X3 [Rhinopithecus bieti] &gt;ref|XP_023064824.1| GTPase KRas isoform X3 [Piliocolobus tephrosceles] &gt;ref|XP_025256999.1| GTPase KRas isoform X1 [Theropithecus gelada] &gt;ref|XP_030794571.1| GTPase KRas isoform X3 [Rhinopithecus roxellana] &gt;ref|XP_031506215.1| GTPase KRas isoform X3 [Papio anubis] &gt;ref|XP_032143152.1| GTPase KRas isoform X3 [Sapajus apella] &gt;ref|XP_033078549.1| GTPase KRas isoform X5 [Trachypithecus francoisi] &gt;ref|XP_035111952.1| GTPase KRas isoform X4 [Callithrix jacchus] &gt;ref|XP_039327844.1| GTPase KRas isoform X3 [Saimiri boliviensis] &gt;ref|XP_047284782.1| GTPase KRas isoform X1 [Homo sapiens] &gt;ref|XP_054227990.1| GTPase KRas isoform X1 [Homo sapiens] &gt;ref|XP_063528598.1| GTPase KRas isoform X3 [Pongo pygmaeus] &gt;ref|XP_063568139.1| GTPase KRas isoform X3 [Pongo abelii] &gt;ref|XP_073862542.1| GTPase KRas isoform X4 [Macaca fascicularis] &gt;gb|KAL4682659.1| hypothetical protein H8957_006605 [Semnopithecus entellus] &gt;gb|KAL4839523.1| hypothetical protein H8958_003405 [Nasalis larvatus]</Hit_def>
+  <Hit_accession>XP_007966155</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>1.10948e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_010854295.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase KRas isoform X1 [Bison bison bison] &gt;ref|XP_010854296.1| PREDICTED: GTPase KRas isoform X1 [Bison bison bison] &gt;ref|XP_012588346.1| PREDICTED: GTPase KRas isoform X2 [Condylura cristata] &gt;ref|XP_014950382.1| GTPase KRas isoform X1 [Ovis aries] &gt;ref|XP_015974713.1| GTPase KRas isoform X1 [Rousettus aegyptiacus] &gt;ref|XP_017903877.1| PREDICTED: GTPase KRas isoform X1 [Capra hircus] &gt;ref|XP_017903878.1| PREDICTED: GTPase KRas isoform X1 [Capra hircus] &gt;ref|XP_019510187.1| PREDICTED: GTPase KRas isoform X1 [Hipposideros armiger] &gt;ref|XP_019510189.1| PREDICTED: GTPase KRas isoform X1 [Hipposideros armiger] &gt;ref|XP_019593306.1| GTPase KRas isoform X1 [Rhinolophus sinicus] &gt;ref|XP_019593314.1| GTPase KRas isoform X1 [Rhinolophus sinicus] &gt;ref|XP_019816991.2| GTPase KRas isoform X1 [Bos indicus] &gt;ref|XP_019816993.2| GTPase KRas isoform X1 [Bos indicus] &gt;ref|XP_019816994.2| GTPase KRas isoform X1 [Bos indicus] &gt;ref|XP_020764407.1| GTPase KRas isoform X1 [Odocoileus virginianus] &gt;ref|XP_020764409.1| GTPase KRas isoform X1 [Odocoileus virginianus] &gt;ref|XP_020764410.1| GTPase KRas isoform X1 [Odocoileus virginianus] &gt;ref|XP_021509781.1| GTPase KRas isoform X2 [Meriones unguiculatus] &gt;ref|XP_023499016.1| GTPase KRas isoform X1 [Equus caballus] &gt;ref|XP_024588797.1| GTPase KRas isoform X1 [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_024847870.1| GTPase KRas isoform X1 [Bos taurus] &gt;ref|XP_025139184.1| GTPase KRas isoform X1 [Bubalus bubalis] &gt;ref|XP_025139187.1| GTPase KRas isoform X1 [Bubalus bubalis] &gt;ref|XP_026985215.1| GTPase KRas isoform X1 [Sagmatias obliquidens] &gt;ref|XP_026985216.1| GTPase KRas isoform X1 [Sagmatias obliquidens] &gt;ref|XP_027285923.1| GTPase KRas isoform X1 [Cricetulus griseus] &gt;ref|XP_027397361.1| GTPase KRas isoform X1 [Bos indicus x Bos taurus] &gt;ref|XP_027397362.1| GTPase KRas isoform X1 [Bos indicus x Bos taurus] &gt;ref|XP_027397365.1| GTPase KRas isoform X1 [Bos indicus x Bos taurus] &gt;ref|XP_027823605.1| GTPase KRas isoform X1 [Ovis aries] &gt;ref|XP_028387444.1| GTPase KRas isoform X1 [Phyllostomus discolor] &gt;ref|XP_028387449.1| GTPase KRas isoform X1 [Phyllostomus discolor] &gt;ref|XP_029061162.1| GTPase KRas isoform X1 [Monodon monoceros] &gt;ref|XP_029061163.1| GTPase KRas isoform X1 [Monodon monoceros] &gt;ref|XP_029455996.1| GTPase KRas isoform X1 [Rhinatrema bivittatum] &gt;ref|XP_029455997.1| GTPase KRas isoform X1 [Rhinatrema bivittatum] &gt;ref|XP_029455998.1| GTPase KRas isoform X1 [Rhinatrema bivittatum] &gt;ref|XP_032500957.1| GTPase KRas isoform X1 [Phocoena sinus] &gt;ref|XP_032973790.1| GTPase KRas isoform X1 [Rhinolophus ferrumequinum] &gt;ref|XP_032973792.1| GTPase KRas isoform X1 [Rhinolophus ferrumequinum] &gt;ref|XP_033286116.1| GTPase KRas isoform X1 [Orcinus orca] &gt;ref|XP_033286117.1| GTPase KRas isoform X1 [Orcinus orca] &gt;ref|XP_033722881.1| GTPase KRas isoform X1 [Tursiops truncatus] &gt;ref|XP_033722882.1| GTPase KRas isoform X1 [Tursiops truncatus] &gt;ref|XP_035875142.1| GTPase KRas isoform X1 [Phyllostomus discolor] &gt;ref|XP_035875143.1| GTPase KRas isoform X1 [Phyllostomus discolor] &gt;ref|XP_036092744.1| GTPase KRas isoform X1 [Rousettus aegyptiacus] &gt;ref|XP_036721286.1| GTPase KRas isoform X1 [Balaenoptera musculus] &gt;ref|XP_036721287.1| GTPase KRas isoform X1 [Balaenoptera musculus] &gt;ref|XP_036721289.1| GTPase KRas isoform X1 [Balaenoptera musculus] &gt;ref|XP_036889902.1| GTPase KRas isoform X1 [Sturnira hondurensis] &gt;ref|XP_036889903.1| GTPase KRas isoform X1 [Sturnira hondurensis] &gt;ref|XP_036889905.1| GTPase KRas isoform X1 [Sturnira hondurensis] &gt;ref|XP_037000721.1| GTPase KRas isoform X1 [Artibeus jamaicensis] &gt;ref|XP_037000722.1| GTPase KRas isoform X1 [Artibeus jamaicensis] &gt;ref|XP_037000723.1| GTPase KRas isoform X1 [Artibeus jamaicensis] &gt;ref|XP_037000725.1| GTPase KRas isoform X1 [Artibeus jamaicensis] &gt;ref|XP_037701678.1| GTPase KRas isoform X2 [Choloepus didactylus] &gt;ref|XP_040090511.1| GTPase KRas isoform X1 [Oryx dammah] &gt;ref|XP_040090514.1| GTPase KRas isoform X1 [Oryx dammah] &gt;ref|XP_040599529.1| GTPase KRas isoform X1 [Mesocricetus auratus] &gt;ref|XP_043297261.1| GTPase KRas isoform X1 [Cervus canadensis] &gt;ref|XP_043297263.1| GTPase KRas isoform X1 [Cervus canadensis] &gt;ref|XP_043738601.1| GTPase KRas isoform X1 [Cervus elaphus] &gt;ref|XP_043738603.1| GTPase KRas isoform X1 [Cervus elaphus] &gt;ref|XP_044631166.1| GTPase KRas isoform X1 [Equus asinus] &gt;ref|XP_044797193.1| GTPase KRas isoform X1 [Bubalus bubalis] &gt;ref|XP_045144413.1| GTPase KRas isoform X1 [Echinops telfairi] &gt;ref|XP_045144414.1| GTPase KRas isoform X1 [Echinops telfairi] &gt;ref|XP_045685031.1| GTPase KRas isoform X1 [Phyllostomus hastatus] &gt;ref|XP_045685033.1| GTPase KRas isoform X1 [Phyllostomus hastatus] &gt;ref|XP_046516005.1| GTPase KRas isoform X1 [Equus quagga] &gt;ref|XP_046516015.1| GTPase KRas isoform X1 [Equus quagga] &gt;ref|XP_053517962.1| GTPase KRas isoform X1 [Artibeus jamaicensis] &gt;ref|XP_053777688.1| GTPase KRas isoform X1 [Desmodus rotundus] &gt;ref|XP_053777689.1| GTPase KRas isoform X1 [Desmodus rotundus] &gt;ref|XP_054447297.1| GTPase KRas isoform X2 [Pteronotus mesoamericanus] &gt;ref|XP_054941488.1| GTPase KRas isoform X2 [Physeter macrocephalus] &gt;ref|XP_055252542.1| GTPase KRas isoform X1 [Moschus berezovskii] &gt;ref|XP_055252544.1| GTPase KRas isoform X1 [Moschus berezovskii] &gt;ref|XP_055428173.1| GTPase KRas isoform X1 [Bubalus kerabau] &gt;ref|XP_055428181.1| GTPase KRas isoform X1 [Bubalus kerabau] &gt;ref|XP_055428190.1| GTPase KRas isoform X1 [Bubalus kerabau] &gt;ref|XP_055428203.1| GTPase KRas isoform X1 [Bubalus kerabau] &gt;ref|XP_055461546.1| GTPase KRas isoform X1 [Psammomys obesus] &gt;ref|XP_057557774.1| GTPase KRas isoform X1 [Hippopotamus amphibius kiboko] &gt;ref|XP_057557776.1| GTPase KRas isoform X1 [Hippopotamus amphibius kiboko] &gt;ref|XP_057557778.1| GTPase KRas isoform X1 [Hippopotamus amphibius kiboko] &gt;ref|XP_058936112.1| GTPase KRas isoform X3 [Kogia breviceps] &gt;ref|XP_059742648.1| GTPase KRas isoform X1 [Bos taurus] &gt;ref|XP_059791459.1| GTPase KRas isoform X2 [Balaenoptera ricei] &gt;ref|XP_059880440.1| GTPase KRas isoform X1 [Delphinus delphis] &gt;ref|XP_059880442.1| GTPase KRas isoform X1 [Delphinus delphis] &gt;ref|XP_060981133.1| GTPase KRas isoform X1 [Dama dama] &gt;ref|XP_060981134.1| GTPase KRas isoform X1 [Dama dama] &gt;ref|XP_061273589.1| GTPase KRas isoform X1 [Bos javanicus] &gt;ref|XP_061273590.1| GTPase KRas isoform X1 [Bos javanicus] &gt;ref|XP_061273592.1| GTPase KRas isoform X1 [Bos javanicus] &gt;ref|XP_065796232.1| GTPase KRas isoform X1 [Muntiacus reevesi] &gt;ref|XP_065796241.1| GTPase KRas isoform X1 [Muntiacus reevesi] &gt;ref|XP_067552043.1| GTPase KRas isoform X1 [Pseudorca crassidens] &gt;ref|XP_067552046.1| GTPase KRas isoform X1 [Pseudorca crassidens] &gt;ref|XP_068828134.1| GTPase KRas isoform X2 [Capricornis sumatraensis] &gt;ref|XP_068828137.1| GTPase KRas isoform X2 [Capricornis sumatraensis] &gt;ref|XP_069441644.1| GTPase KRas isoform X1 [Ovis canadensis] &gt;ref|XP_069441645.1| GTPase KRas isoform X1 [Ovis canadensis] &gt;ref|XP_069902621.1| GTPase KRas isoform X1 [Globicephala melas] &gt;ref|XP_069902622.1| GTPase KRas isoform X1 [Globicephala melas] &gt;ref|XP_070227311.1| GTPase KRas isoform X1 [Bos mutus] &gt;ref|XP_070227312.1| GTPase KRas isoform X1 [Bos mutus] &gt;ref|XP_070227313.1| GTPase KRas isoform X1 [Bos mutus] &gt;ref|XP_070351065.1| GTPase KRas isoform X1 [Equus asinus] &gt;ref|XP_070475435.1| GTPase KRas isoform X1 [Equus przewalskii] &gt;ref|XP_074182017.1| GTPase KRas isoform X1 [Rhinolophus sinicus] &gt;ref|XP_077026445.1| GTPase KRas isoform X2 [Tamandua tetradactyla] &gt;gb|TEA28243.1| hypothetical protein DBR06_SOUSAS3310022 [Sousa chinensis] &gt;gb|ELR51802.1| GTPase KRas [Bos mutus] &gt;gb|KAF6119364.1| KRAS proto-oncogene, GTPase [Phyllostomus discolor] &gt;gb|KAF6339613.1| KRAS proto-oncogene, GTPase [Rhinolophus ferrumequinum] &gt;gb|KAF6495537.1| KRAS proto-oncogene, GTPase [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_010854295</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>1.3558e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_053777690.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Desmodus rotundus]</Hit_def>
+  <Hit_accession>XP_053777690</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.44363e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_024588800.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_026985218.1| GTPase KRas isoform X3 [Sagmatias obliquidens] &gt;ref|XP_065742608.1| GTPase KRas isoform X1 [Phocoena phocoena] &gt;ref|XP_067552048.1| GTPase KRas isoform X4 [Pseudorca crassidens]</Hit_def>
+  <Hit_accession>XP_024588800</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.45956e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|PNJ03835.1|</Hit_id>
+  <Hit_def>KRAS isoform 4 [Pongo abelii]</Hit_def>
+  <Hit_accession>PNJ03835</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>1.80349e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCMKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGC+KIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_015353728.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Marmota marmota marmota] &gt;ref|XP_046291745.1| GTPase KRas isoform X1 [Marmota monax] &gt;ref|XP_046291746.1| GTPase KRas isoform X1 [Marmota monax] &gt;ref|XP_046291748.1| GTPase KRas isoform X1 [Marmota monax] &gt;ref|XP_047404318.1| GTPase KRas isoform X1 [Sciurus carolinensis] &gt;ref|XP_047404322.1| GTPase KRas isoform X1 [Sciurus carolinensis] &gt;ref|XP_053575061.1| GTPase KRas isoform X1 [Bombina bombina] &gt;ref|XP_054552336.1| GTPase KRas isoform X2 [Talpa occidentalis] &gt;ref|XP_071466167.1| GTPase KRas isoform X1 [Marmota flaviventris] &gt;ref|XP_071466168.1| GTPase KRas isoform X1 [Marmota flaviventris] &gt;ref|XP_077871187.1| GTPase KRas isoform X1 [Ictidomys tridecemlineatus] &gt;ref|XP_077871189.1| GTPase KRas isoform X1 [Ictidomys tridecemlineatus] &gt;gb|KAG3292262.1| KRAS proto-oncogene, GTPase, transcript variant X2 [Ictidomys tridecemlineatus] &gt;gb|KAI6055988.1| KRAS [Marmota monax] &gt;gb|KAI6069103.1| KRAS [Marmota monax] &gt;emb|VTJ67790.1| Hypothetical predicted protein [Marmota monax]</Hit_def>
+  <Hit_accession>XP_015353728</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>1.80349e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCILM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_063550183.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X4 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_063550183</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>1.88901e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_004700038.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Echinops telfairi] &gt;ref|XP_006867015.1| PREDICTED: GTPase KRas isoform X1 [Chrysochloris asiatica] &gt;ref|XP_010854298.1| PREDICTED: GTPase KRas isoform X3 [Bison bison bison] &gt;ref|XP_017903880.1| PREDICTED: GTPase KRas isoform X3 [Capra hircus] &gt;ref|XP_019593330.1| GTPase KRas isoform X3 [Rhinolophus sinicus] &gt;ref|XP_019816996.2| GTPase KRas isoform X3 [Bos indicus] &gt;ref|XP_023499018.1| GTPase KRas isoform X3 [Equus caballus] &gt;ref|XP_024903133.1| GTPase KRas isoform X2 [Pteropus alecto] &gt;ref|XP_027285925.1| GTPase KRas isoform X3 [Cricetulus griseus] &gt;ref|XP_027397367.1| GTPase KRas isoform X3 [Bos indicus x Bos taurus] &gt;ref|XP_032973793.1| GTPase KRas isoform X3 [Rhinolophus ferrumequinum] &gt;ref|XP_037701679.1| GTPase KRas isoform X3 [Choloepus didactylus] &gt;ref|XP_039738416.1| GTPase KRas isoform X2 [Pteropus medius] &gt;ref|XP_040090516.1| GTPase KRas isoform X3 [Oryx dammah] &gt;ref|XP_045685034.1| GTPase KRas isoform X3 [Phyllostomus hastatus] &gt;ref|XP_054447298.1| GTPase KRas isoform X3 [Pteronotus mesoamericanus] &gt;ref|XP_055428212.1| GTPase KRas isoform X3 [Bubalus kerabau] &gt;ref|XP_060981136.1| GTPase KRas isoform X3 [Dama dama] &gt;ref|XP_061273594.1| GTPase KRas isoform X3 [Bos javanicus] &gt;ref|XP_065796257.1| GTPase KRas isoform X3 [Muntiacus reevesi] &gt;ref|XP_068828133.1| GTPase KRas isoform X1 [Capricornis sumatraensis] &gt;ref|XP_069441648.1| GTPase KRas isoform X3 [Ovis canadensis] &gt;ref|XP_070227315.1| GTPase KRas isoform X3 [Bos mutus] &gt;ref|XP_070351068.1| GTPase KRas isoform X3 [Equus asinus] &gt;ref|XP_070475438.1| GTPase KRas isoform X3 [Equus przewalskii]</Hit_def>
+  <Hit_accession>XP_004700038</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.92009e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_055461548.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Psammomys obesus]</Hit_def>
+  <Hit_accession>XP_055461548</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>2.09621e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ERE66116.1|</Hit_id>
+  <Hit_def>GTPase KRas-like isoform 2 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>ERE66116</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>2.19859e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_015353730.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Marmota marmota marmota] &gt;ref|XP_071466170.1| GTPase KRas isoform X3 [Marmota flaviventris] &gt;ref|XP_077871190.1| GTPase KRas isoform X3 [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_015353730</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>2.4175e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCILM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_074124921.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Sminthopsis crassicaudata]</Hit_def>
+  <Hit_accession>XP_074124921</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>2.52859e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKITKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKI+KEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_069618925.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Ranitomeya imitator] &gt;ref|XP_072000920.1| GTPase KRas isoform X1 [Engystomops pustulosus] &gt;ref|XP_073400119.1| GTPase KRas isoform X1 [Dendrobates tinctorius] &gt;ref|XP_073400120.1| GTPase KRas isoform X1 [Dendrobates tinctorius] &gt;ref|XP_075458983.1| GTPase KRas isoform X2 [Ascaphus truei] &gt;ref|XP_077123299.1| GTPase KRas isoform X1 [Ranitomeya variabilis] &gt;ref|XP_077123301.1| GTPase KRas isoform X1 [Ranitomeya variabilis] &gt;gb|MEE6477450.1| hypothetical protein [Ascaphus truei] &gt;gb|MEE6477451.1| hypothetical protein [Ascaphus truei]</Hit_def>
+  <Hit_accession>XP_069618925</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>2.70682e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_073400122.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Dendrobates tinctorius]</Hit_def>
+  <Hit_accession>XP_073400122</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>2.94523e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_007503562.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Monodelphis domestica] &gt;ref|XP_007503563.1| GTPase KRas isoform X1 [Monodelphis domestica] &gt;ref|XP_012406311.1| GTPase KRas isoform X1 [Sarcophilus harrisii] &gt;ref|XP_020820734.1| GTPase KRas isoform X1 [Phascolarctos cinereus] &gt;ref|XP_020820737.1| GTPase KRas isoform X1 [Phascolarctos cinereus] &gt;ref|XP_031794332.1| GTPase KRas isoform X1 [Sarcophilus harrisii] &gt;ref|XP_031794334.1| GTPase KRas isoform X1 [Sarcophilus harrisii] &gt;ref|XP_036615112.1| GTPase KRas isoform X2 [Trichosurus vulpecula] &gt;ref|XP_043821984.1| GTPase KRas isoform X3 [Dromiciops gliroides] &gt;ref|XP_044533468.1| GTPase KRas isoform X2 [Gracilinanus agilis] &gt;ref|XP_051857536.1| GTPase KRas isoform X1 [Antechinus flavipes] &gt;ref|XP_066120993.1| GTPase KRas isoform X1 [Saccopteryx bilineata] &gt;ref|XP_066121004.1| GTPase KRas isoform X1 [Saccopteryx bilineata] &gt;ref|XP_066210336.1| GTPase KRas isoform X2 [Saccopteryx leptura] &gt;ref|XP_066210344.1| GTPase KRas isoform X2 [Saccopteryx leptura] &gt;ref|XP_068962376.1| GTPase KRas isoform X2 [Petaurus breviceps papuanus] &gt;ref|XP_068962960.1| GTPase KRas isoform X2 [Petaurus breviceps papuanus] &gt;ref|XP_072509571.1| GTPase KRas isoform X1 [Notamacropus eugenii] &gt;ref|XP_072509575.1| GTPase KRas isoform X1 [Notamacropus eugenii] &gt;ref|XP_074050334.1| GTPase KRas isoform X1 [Macrotis lagotis] &gt;ref|XP_074050336.1| GTPase KRas isoform X1 [Macrotis lagotis] &gt;ref|XP_074124923.1| GTPase KRas isoform X3 [Sminthopsis crassicaudata]</Hit_def>
+  <Hit_accession>XP_007503562</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.423</Hsp_bit-score>
+      <Hsp_score>999</Hsp_score>
+      <Hsp_evalue>3.484e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKITKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKI+KEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_019307790.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Panthera pardus] &gt;ref|XP_019307792.1| GTPase KRas isoform X1 [Panthera pardus] &gt;ref|XP_025735488.1| GTPase KRas isoform X1 [Callorhinus ursinus] &gt;ref|XP_026358035.1| GTPase KRas isoform X1 [Ursus arctos] &gt;ref|XP_026891564.1| GTPase KRas isoform X1 [Acinonyx jubatus] &gt;ref|XP_027448838.1| GTPase KRas isoform X1 [Zalophus californianus] &gt;ref|XP_027448839.1| GTPase KRas isoform X1 [Zalophus californianus] &gt;ref|XP_027448840.1| GTPase KRas isoform X1 [Zalophus californianus] &gt;ref|XP_027968966.1| GTPase KRas isoform X1 [Eumetopias jubatus] &gt;ref|XP_027968968.1| GTPase KRas isoform X1 [Eumetopias jubatus] &gt;ref|XP_030177818.1| GTPase KRas isoform X1 [Lynx canadensis] &gt;ref|XP_030177820.1| GTPase KRas isoform X1 [Lynx canadensis] &gt;ref|XP_032203529.1| GTPase KRas isoform X1 [Mustela erminea] &gt;ref|XP_032203530.1| GTPase KRas isoform X1 [Mustela erminea] &gt;ref|XP_032711122.1| GTPase KRas isoform X1 [Lontra canadensis] &gt;ref|XP_032711123.1| GTPase KRas isoform X1 [Lontra canadensis] &gt;ref|XP_032711125.1| GTPase KRas isoform X1 [Lontra canadensis] &gt;ref|XP_034502440.1| GTPase KRas isoform X1 [Ailuropoda melanoleuca] &gt;ref|XP_034502442.1| GTPase KRas isoform X1 [Ailuropoda melanoleuca] &gt;ref|XP_034883951.1| GTPase KRas isoform X1 [Mirounga leonina] &gt;ref|XP_038294636.1| GTPase KRas isoform X1 [Canis lupus familiaris] &gt;ref|XP_038315842.1| GTPase KRas isoform X1 [Canis lupus familiaris] &gt;ref|XP_038315843.1| GTPase KRas isoform X1 [Canis lupus familiaris] &gt;ref|XP_038433017.1| GTPase KRas isoform X1 [Canis lupus familiaris] &gt;ref|XP_038433018.1| GTPase KRas isoform X1 [Canis lupus familiaris] &gt;ref|XP_040344578.1| GTPase KRas isoform X1 [Herpailurus yagouaroundi] &gt;ref|XP_040344580.1| GTPase KRas isoform X1 [Herpailurus yagouaroundi] &gt;ref|XP_040498191.1| GTPase KRas isoform X1 [Ursus maritimus] &gt;ref|XP_040498193.1| GTPase KRas isoform X1 [Ursus maritimus] &gt;ref|XP_041591825.1| GTPase KRas isoform X1 [Vulpes lagopus] &gt;ref|XP_041591826.1| GTPase KRas isoform X1 [Vulpes lagopus] &gt;ref|XP_042802021.1| GTPase KRas isoform X2 [Panthera leo] &gt;ref|XP_042802023.1| GTPase KRas isoform X2 [Panthera leo] &gt;ref|XP_042847902.1| GTPase KRas isoform X2 [Panthera tigris] &gt;ref|XP_042847904.1| GTPase KRas isoform X2 [Panthera tigris] &gt;ref|XP_044084895.1| GTPase KRas isoform X2 [Neogale vison] &gt;ref|XP_044084899.1| GTPase KRas isoform X2 [Neogale vison] &gt;ref|XP_044917494.1| GTPase KRas isoform X1 [Felis catus] &gt;ref|XP_044929302.1| GTPase KRas isoform X1 [Mustela putorius furo] &gt;ref|XP_044929303.1| GTPase KRas isoform X1 [Mustela putorius furo] &gt;ref|XP_045667854.1| GTPase KRas isoform X1 [Ursus americanus] &gt;ref|XP_045867256.1| GTPase KRas isoform X1 [Meles meles] &gt;ref|XP_045867257.1| GTPase KRas isoform X1 [Meles meles] &gt;ref|XP_046923383.1| GTPase KRas isoform X2 [Lynx rufus] &gt;ref|XP_046923385.1| GTPase KRas isoform X2 [Lynx rufus] &gt;ref|XP_047595958.1| GTPase KRas isoform X1 [Lutra lutra] &gt;ref|XP_047595959.1| GTPase KRas isoform X1 [Lutra lutra] &gt;ref|XP_048958753.1| GTPase KRas isoform X3 [Canis lupus dingo] &gt;ref|XP_048958754.1| GTPase KRas isoform X3 [Canis lupus dingo] &gt;ref|XP_049481157.1| GTPase KRas isoform X1 [Panthera uncia] &gt;ref|XP_049481158.1| GTPase KRas isoform X1 [Panthera uncia] &gt;ref|XP_049481160.1| GTPase KRas isoform X1 [Panthera uncia] &gt;ref|XP_053081999.1| GTPase KRas isoform X1 [Acinonyx jubatus] &gt;ref|XP_055174580.1| GTPase KRas isoform X1 [Nyctereutes procyonoides] &gt;ref|XP_055174581.1| GTPase KRas isoform X1 [Nyctereutes procyonoides] &gt;ref|XP_055174582.1| GTPase KRas isoform X1 [Nyctereutes procyonoides] &gt;ref|XP_057174799.1| GTPase KRas isoform X1 [Ursus arctos] &gt;ref|XP_058599323.1| GTPase KRas isoform X1 [Neofelis nebulosa] &gt;ref|XP_058599325.1| GTPase KRas isoform X1 [Neofelis nebulosa] &gt;ref|XP_059041775.1| GTPase KRas isoform X1 [Mustela lutreola] &gt;ref|XP_059041777.1| GTPase KRas isoform X1 [Mustela lutreola] &gt;ref|XP_059258760.1| GTPase KRas isoform X1 [Mustela nigripes] &gt;ref|XP_059258763.1| GTPase KRas isoform X1 [Mustela nigripes] &gt;ref|XP_060050523.1| GTPase KRas isoform X1 [Erinaceus europaeus] &gt;ref|XP_060514118.1| GTPase KRas isoform X2 [Panthera onca] &gt;ref|XP_064447561.1| GTPase KRas isoform X1 [Mirounga angustirostris] &gt;ref|XP_064447562.1| GTPase KRas isoform X1 [Mirounga angustirostris] &gt;ref|XP_072654734.1| GTPase KRas isoform X1 [Canis lupus baileyi] &gt;ref|XP_072654735.1| GTPase KRas isoform X1 [Canis lupus baileyi] &gt;ref|XP_072654736.1| GTPase KRas isoform X1 [Canis lupus baileyi] &gt;ref|XP_073733941.1| GTPase KRas isoform X1 [Callorhinus ursinus] &gt;ref|XP_073733942.1| GTPase KRas isoform X1 [Callorhinus ursinus] &gt;ref|XP_077630720.1| GTPase KRas isoform X2 [Crocuta crocuta] &gt;ref|XP_077726833.1| GTPase KRas isoform X1 [Canis aureus] &gt;ref|XP_077726835.1| GTPase KRas isoform X1 [Canis aureus] &gt;ref|XP_077726836.1| GTPase KRas isoform X1 [Canis aureus] &gt;gb|KAI5769382.1| KRAS protein [Gulo gulo luscus] &gt;emb|VFV31857.1| gtpase kras-like isoform 2 [Lynx pardinus] &gt;gb|EFB26490.1| hypothetical protein PANDA_003288, partial [Ailuropoda melanoleuca] &gt;gb|KAI5769515.1| KRAS protein [Gulo gulo luscus] &gt;emb|CAK7299074.1| GTPase KRas [Vulpes lagopus]</Hit_def>
+  <Hit_accession>XP_019307790</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.423</Hsp_bit-score>
+      <Hsp_score>999</Hsp_score>
+      <Hsp_evalue>3.9744e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKINKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKI+KEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_048958751.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Canis lupus dingo]</Hit_def>
+  <Hit_accession>XP_048958751</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>4.06012e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKINKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKI+KEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_069820065.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Dendropsophus ebraccatus] &gt;ref|XP_069820073.1| GTPase KRas isoform X1 [Dendropsophus ebraccatus] &gt;ref|XP_075131558.1| GTPase KRas isoform X1 [Leptodactylus fuscus] &gt;gb|KAM3925435.1| GTPase KRas isoform 1-T1 [Leptodactylus fuscus]</Hit_def>
+  <Hit_accession>XP_069820065</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.423</Hsp_bit-score>
+      <Hsp_score>999</Hsp_score>
+      <Hsp_evalue>4.0626e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKMSKEEKTPGCVKIKKCLIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKK+SKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_075408092.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Tenrec ecaudatus]</Hit_def>
+  <Hit_accession>XP_075408092</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.423</Hsp_bit-score>
+      <Hsp_score>999</Hsp_score>
+      <Hsp_evalue>4.0626e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCMKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGC+KIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001390172.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform 2 [Mus musculus] &gt;ref|XP_017447932.1| GTPase KRas isoform X1 [Rattus norvegicus] &gt;ref|XP_021020441.1| GTPase KRas isoform X1 [Mus caroli] &gt;ref|XP_028613355.1| GTPase KRas isoform X1 [Grammomys surdaster] &gt;ref|XP_029390558.1| GTPase KRas isoform X1 [Mus pahari] &gt;ref|XP_029390559.1| GTPase KRas isoform X1 [Mus pahari] &gt;ref|XP_029390562.1| GTPase KRas isoform X1 [Mus pahari] &gt;ref|XP_029390564.1| GTPase KRas isoform X1 [Mus pahari] &gt;ref|XP_031239730.1| GTPase KRas isoform X1 [Mastomys coucha] &gt;ref|XP_031239731.1| GTPase KRas isoform X1 [Mastomys coucha] &gt;ref|XP_032761287.1| GTPase KRas isoform X1 [Rattus rattus] &gt;ref|XP_032761288.1| GTPase KRas isoform X1 [Rattus rattus] &gt;ref|XP_034367525.1| GTPase KRas isoform X1 [Arvicanthis niloticus] &gt;ref|XP_038962950.1| GTPase KRas isoform X1 [Rattus norvegicus] &gt;ref|XP_052031220.1| GTPase KRas isoform X1 [Apodemus sylvaticus] &gt;sp|P08644.3| RecName: Full=GTPase KRas; AltName: Full=K-Ras 2; AltName: Full=Ki-Ras; AltName: Full=c-K-ras; AltName: Full=c-Ki-ras; Contains: RecName: Full=GTPase KRas, N-terminally processed; Flags: Precursor [Rattus norvegicus] &gt;sp|P32883.1| RecName: Full=GTPase KRas; AltName: Full=K-Ras 2; AltName: Full=Ki-Ras; AltName: Full=c-K-ras; AltName: Full=c-Ki-ras; Contains: RecName: Full=GTPase KRas, N-terminally processed; Flags: Precursor [Mus musculus] &gt;gb|AAI19496.1| Kras protein [Mus musculus]</Hit_def>
+  <Hit_accession>NP_001390172</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>5.00448e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQELARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCVIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQ+LARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_019371235.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase KRas isoform X1 [Gavialis gangeticus]</Hit_def>
+  <Hit_accession>XP_019371235</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>5.28675e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRMKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_057283958.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Pezoporus wallicus] &gt;ref|XP_057283968.1| GTPase KRas isoform X1 [Pezoporus wallicus] &gt;ref|XP_057283978.1| GTPase KRas isoform X1 [Pezoporus wallicus] &gt;ref|XP_061328131.1| GTPase KRas isoform X1 [Pezoporus flaviventris] &gt;ref|XP_061328132.1| GTPase KRas isoform X1 [Pezoporus flaviventris] &gt;ref|XP_061328133.1| GTPase KRas isoform X1 [Pezoporus flaviventris] &gt;ref|XP_062490761.1| GTPase KRas isoform X1 [Pezoporus occidentalis] &gt;ref|XP_062490762.1| GTPase KRas isoform X1 [Pezoporus occidentalis] &gt;ref|XP_062490764.1| GTPase KRas isoform X1 [Pezoporus occidentalis]</Hit_def>
+  <Hit_accession>XP_057283958</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>5.28675e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRMKKVSKEEKTPGCVKIKKCLIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KK+SKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_013208244.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X2 [Microtus ochrogaster] &gt;ref|XP_038173876.1| GTPase KRas isoform X1 [Arvicola amphibius] &gt;ref|XP_041536170.1| GTPase KRas isoform X1 [Microtus oregoni] &gt;ref|XP_048288602.1| GTPase KRas isoform X1 [Myodes glareolus] &gt;ref|XP_050020689.1| GTPase KRas isoform X1 [Alexandromys fortis] &gt;ref|XP_057622177.1| GTPase KRas isoform X1 [Chionomys nivalis] &gt;ref|XP_075838414.1| GTPase KRas isoform X1 [Microtus pennsylvanicus] &gt;emb|CAO2607165.1| GTPase KRas [Lemmus lemmus]</Hit_def>
+  <Hit_accession>XP_013208244</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>5.40407e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAHDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQA DLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_075408094.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Tenrec ecaudatus]</Hit_def>
+  <Hit_accession>XP_075408094</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>5.44383e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCMKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGC+KIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_014646866.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase KRas isoform X1 [Ceratotherium simum simum] &gt;ref|XP_058414614.1| GTPase KRas isoform X1 [Diceros bicornis minor] &gt;ref|XP_058414615.1| GTPase KRas isoform X1 [Diceros bicornis minor] &gt;ref|XP_058414617.1| GTPase KRas isoform X1 [Diceros bicornis minor]</Hit_def>
+  <Hit_accession>XP_014646866</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>5.4637e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIQQYRLKKISKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREI+QYRLKKISKEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_041910365.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Arvicola amphibius] &gt;ref|XP_048288604.1| GTPase KRas isoform X3 [Myodes glareolus] &gt;ref|XP_057622179.1| GTPase KRas isoform X3 [Chionomys nivalis]</Hit_def>
+  <Hit_accession>XP_041910365</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>6.0087e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAHDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQA DLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KYO36738.1|</Hit_id>
+  <Hit_def>GTPase KRas [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>KYO36738</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>6.13995e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRVKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_016280850.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X4 [Monodelphis domestica] &gt;ref|XP_031794336.1| GTPase KRas isoform X3 [Sarcophilus harrisii] &gt;ref|XP_044533466.1| GTPase KRas isoform X1 [Gracilinanus agilis] &gt;ref|XP_051857538.1| GTPase KRas isoform X3 [Antechinus flavipes] &gt;ref|XP_066210350.1| GTPase KRas isoform X3 [Saccopteryx leptura] &gt;ref|XP_068962377.1| GTPase KRas isoform X3 [Petaurus breviceps papuanus] &gt;ref|XP_068962961.1| GTPase KRas isoform X3 [Petaurus breviceps papuanus] &gt;ref|XP_072509576.1| GTPase KRas isoform X3 [Notamacropus eugenii]</Hit_def>
+  <Hit_accession>XP_016280850</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>6.14198e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKITKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKI+KEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_068805885.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Struthio camelus] &gt;ref|XP_068805893.1| GTPase KRas isoform X1 [Struthio camelus]</Hit_def>
+  <Hit_accession>XP_068805885</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>6.30152e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRVKKISKEEKTPGCVKIKKCLIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KKISKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_021045989.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Mus pahari] &gt;ref|XP_028613357.1| GTPase KRas isoform X3 [Grammomys surdaster] &gt;ref|XP_029334016.1| GTPase KRas isoform X3 [Mus caroli]</Hit_def>
+  <Hit_accession>XP_021045989</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>6.55983e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQELARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCVIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQ+LARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_006506982.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X2 [Mus musculus] &gt;ref|XP_052031222.1| GTPase KRas isoform X3 [Apodemus sylvaticus]</Hit_def>
+  <Hit_accession>XP_006506982</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>6.63218e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQELARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCVIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQ+LARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_075199638.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Anomaloglossus baeobatrachus]</Hit_def>
+  <Hit_accession>XP_075199638</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>6.77929e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKMSKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKK+SKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_040293387.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Bufo bufo] &gt;ref|XP_044137249.1| GTPase KRas isoform X1 [Bufo gargarizans] &gt;ref|XP_056373957.1| GTPase KRas isoform X1 [Hyla sarda] &gt;ref|XP_073506615.1| GTPase KRas isoform X1 [Phyllobates terribilis] &gt;ref|XP_073506616.1| GTPase KRas isoform X1 [Phyllobates terribilis] &gt;ref|XP_075066853.1| GTPase KRas isoform X1 [Mixophyes fleayi] &gt;ref|XP_075199636.1| GTPase KRas isoform X1 [Anomaloglossus baeobatrachus] &gt;ref|XP_075711770.1| GTPase KRas isoform X1 [Rhinoderma darwinii] &gt;emb|CAN1974570.1| GTPase KRas [Bufotes viridis] &gt;gb|KAM4038938.1| GTPase KRas isoform 1-T1 [Anomaloglossus baeobatrachus]</Hit_def>
+  <Hit_accession>XP_040293387</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>6.87977e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKMSKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKK+SKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_061215892.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Neopsephotus bourkii] &gt;ref|XP_061215901.1| GTPase KRas isoform X1 [Neopsephotus bourkii] &gt;ref|XP_061215911.1| GTPase KRas isoform X1 [Neopsephotus bourkii]</Hit_def>
+  <Hit_accession>XP_061215892</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>7.03244e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRMKKLSKEEKTPGCVKIKKCLIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KK+SKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_075458986.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X4 [Ascaphus truei]</Hit_def>
+  <Hit_accession>XP_075458986</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>7.48273e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_012595011.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X2 [Microcebus murinus] &gt;ref|XP_023370460.1| GTPase KRas isoform X1 [Otolemur garnettii] &gt;ref|XP_053410338.1| GTPase KRas isoform X1 [Nycticebus coucang] &gt;ref|XP_053410341.1| GTPase KRas isoform X1 [Nycticebus coucang] &gt;ref|XP_069347971.1| GTPase KRas isoform X3 [Eulemur rufifrons] &gt;gb|KAL2776732.1| GTPase KRas isoform a [Daubentonia madagascariensis]</Hit_def>
+  <Hit_accession>XP_012595011</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>7.59395e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLRKINKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRL+KI+KEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_040293403.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Bufo bufo] &gt;ref|XP_073506619.1| GTPase KRas isoform X3 [Phyllobates terribilis]</Hit_def>
+  <Hit_accession>XP_040293403</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>7.73307e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKMSKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKK+SKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_075066855.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Mixophyes fleayi]</Hit_def>
+  <Hit_accession>XP_075066855</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>8.53548e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKMSKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKK+SKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_012422098.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase KRas isoform X1 [Odobenus rosmarus divergens] &gt;ref|XP_019307793.1| GTPase KRas isoform X3 [Panthera pardus] &gt;ref|XP_022378424.1| GTPase KRas isoform X1 [Enhydra lutris kenyoni] &gt;ref|XP_025786801.1| GTPase KRas isoform X1 [Puma concolor] &gt;ref|XP_026891567.1| GTPase KRas isoform X3 [Acinonyx jubatus] &gt;ref|XP_027968969.1| GTPase KRas isoform X3 [Eumetopias jubatus] &gt;ref|XP_029809132.1| GTPase KRas isoform X2 [Suricata suricatta] &gt;ref|XP_030177821.1| GTPase KRas isoform X3 [Lynx canadensis] &gt;ref|XP_032203532.1| GTPase KRas isoform X3 [Mustela erminea] &gt;ref|XP_032711126.1| GTPase KRas isoform X3 [Lontra canadensis] &gt;ref|XP_034502443.1| GTPase KRas isoform X3 [Ailuropoda melanoleuca] &gt;ref|XP_034883953.1| GTPase KRas isoform X3 [Mirounga leonina] &gt;ref|XP_038294638.1| GTPase KRas isoform X3 [Canis lupus familiaris] &gt;ref|XP_038315845.1| GTPase KRas isoform X3 [Canis lupus familiaris] &gt;ref|XP_038433020.1| GTPase KRas isoform X3 [Canis lupus familiaris] &gt;ref|XP_040344582.1| GTPase KRas isoform X3 [Herpailurus yagouaroundi] &gt;ref|XP_040498194.1| GTPase KRas isoform X3 [Ursus maritimus] &gt;ref|XP_041591828.1| GTPase KRas isoform X3 [Vulpes lagopus] &gt;ref|XP_044084900.1| GTPase KRas isoform X4 [Neogale vison] &gt;ref|XP_044771380.1| GTPase KRas isoform X2 [Neomonachus schauinslandi] &gt;ref|XP_044917495.1| GTPase KRas isoform X3 [Felis catus] &gt;ref|XP_045667856.1| GTPase KRas isoform X3 [Ursus americanus] &gt;ref|XP_047595961.1| GTPase KRas isoform X3 [Lutra lutra] &gt;ref|XP_049481161.1| GTPase KRas isoform X3 [Panthera uncia] &gt;ref|XP_055174584.1| GTPase KRas isoform X3 [Nyctereutes procyonoides] &gt;ref|XP_059258764.1| GTPase KRas isoform X3 [Mustela nigripes] &gt;ref|XP_060514119.1| GTPase KRas isoform X3 [Panthera onca] &gt;ref|XP_064447564.1| GTPase KRas isoform X4 [Mirounga angustirostris] &gt;ref|XP_072654739.1| GTPase KRas isoform X3 [Canis lupus baileyi]</Hit_def>
+  <Hit_accession>XP_012422098</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>8.82104e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKINKEEKTPGCVKIKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKI+KEEKTPGCVKIKKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_009277301.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase KRas isoform X2 [Aptenodytes forsteri] &gt;ref|XP_009331093.1| PREDICTED: GTPase KRas isoform X2 [Pygoscelis adeliae] &gt;ref|XP_009584481.1| PREDICTED: GTPase KRas [Fulmarus glacialis] &gt;ref|XP_010164720.1| GTPase KRas [Antrostomus carolinensis] &gt;ref|XP_010281253.1| PREDICTED: GTPase KRas [Phaethon lepturus] &gt;ref|XP_014744579.1| PREDICTED: GTPase KRas isoform X1 [Sturnus vulgaris] &gt;ref|XP_014744580.1| PREDICTED: GTPase KRas isoform X1 [Sturnus vulgaris] &gt;ref|XP_015483432.1| GTPase KRas isoform X1 [Parus major] &gt;ref|XP_017601261.1| PREDICTED: GTPase KRas isoform X1 [Corvus brachyrhynchos] &gt;ref|XP_018862234.1| GTPase KRas isoform X1 [Parus major] &gt;ref|XP_019345049.1| GTPase KRas isoform X1 [Alligator mississippiensis] &gt;ref|XP_019399940.1| PREDICTED: GTPase KRas isoform X1 [Crocodylus porosus] &gt;ref|XP_023804190.1| GTPase KRas isoform X1 [Cyanistes caeruleus] &gt;ref|XP_025922630.1| GTPase KRas isoform X1 [Apteryx rowi] &gt;ref|XP_025922631.1| GTPase KRas isoform X1 [Apteryx rowi] &gt;ref|XP_025948437.1| GTPase KRas isoform X1 [Dromaius novaehollandiae] &gt;ref|XP_026723711.1| GTPase KRas isoform X2 [Athene cunicularia] &gt;ref|XP_027305805.1| GTPase KRas isoform X1 [Anas platyrhynchos] &gt;ref|XP_027549424.1| GTPase KRas isoform X1 [Neopelma chrysocephalum] &gt;ref|XP_027549425.1| GTPase KRas isoform X1 [Neopelma chrysocephalum] &gt;ref|XP_027760692.1| GTPase KRas isoform X2 [Empidonax traillii] &gt;ref|XP_027760693.1| GTPase KRas isoform X2 [Empidonax traillii] &gt;ref|XP_027760694.1| GTPase KRas isoform X2 [Empidonax traillii] &gt;ref|XP_027760695.1| GTPase KRas isoform X2 [Empidonax traillii] &gt;ref|XP_029896752.1| GTPase KRas isoform X2 [Aquila chrysaetos chrysaetos] &gt;ref|XP_030397064.1| GTPase KRas isoform X3 [Gopherus evgoodei] &gt;ref|XP_030917322.1| GTPase KRas isoform X2 [Geospiza fortis] &gt;ref|XP_031963436.1| GTPase KRas isoform X1 [Corvus moneduloides] &gt;ref|XP_031963437.1| GTPase KRas isoform X1 [Corvus moneduloides] &gt;ref|XP_035166855.1| GTPase KRas isoform X4 [Oxyura jamaicensis] &gt;ref|XP_035744422.1| GTPase KRas isoform X1 [Egretta garzetta] &gt;ref|XP_035744423.1| GTPase KRas isoform X1 [Egretta garzetta] &gt;ref|XP_037771461.1| GTPase KRas isoform X3 [Chelonia mydas] &gt;ref|XP_037771470.1| GTPase KRas isoform X3 [Chelonia mydas] &gt;ref|XP_038009507.1| GTPase KRas isoform X1 [Motacilla alba alba] &gt;ref|XP_038009508.1| GTPase KRas isoform X1 [Motacilla alba alba] &gt;ref|XP_038255682.1| GTPase KRas isoform X1 [Dermochelys coriacea] &gt;ref|XP_038255718.1| GTPase KRas isoform X1 [Dermochelys coriacea] &gt;ref|XP_039398776.1| GTPase KRas isoform X1 [Mauremys reevesii] &gt;ref|XP_039427300.1| GTPase KRas isoform X1 [Corvus cornix cornix] &gt;ref|XP_039427301.1| GTPase KRas isoform X1 [Corvus cornix cornix] &gt;ref|XP_039563812.1| GTPase KRas isoform X2 [Passer montanus] &gt;ref|XP_040401125.1| GTPase KRas isoform X1 [Cygnus olor] &gt;ref|XP_040985595.1| GTPase KRas isoform X2 [Aquila chrysaetos chrysaetos] &gt;ref|XP_041906458.1| GTPase KRas isoform X1 [Corvus kubaryi] &gt;ref|XP_041906459.1| GTPase KRas isoform X1 [Corvus kubaryi] &gt;ref|XP_042704542.1| GTPase KRas isoform X2 [Chrysemys picta bellii] &gt;ref|XP_044849632.1| GTPase KRas isoform X1 [Mauremys mutica] &gt;ref|XP_047908191.1| GTPase KRas isoform X1 [Anser cygnoides] &gt;ref|XP_047908192.1| GTPase KRas isoform X1 [Anser cygnoides] &gt;ref|XP_048157125.1| GTPase KRas isoform X1 [Corvus hawaiiensis] &gt;ref|XP_048157126.1| GTPase KRas isoform X1 [Corvus hawaiiensis] &gt;ref|XP_048682367.1| GTPase KRas isoform X2 [Caretta caretta] &gt;ref|XP_048682375.1| GTPase KRas isoform X2 [Caretta caretta] &gt;ref|XP_050825622.1| GTPase KRas isoform X3 [Gopherus flavomarginatus] &gt;ref|XP_050825845.1| GTPase KRas isoform X1 [Serinus canaria] &gt;ref|XP_051471907.1| GTPase KRas isoform X1 [Apus apus] &gt;ref|XP_051471931.1| GTPase KRas isoform X1 [Apus apus] &gt;ref|XP_052644758.1| GTPase KRas isoform X1 [Harpia harpyja] &gt;ref|XP_052644759.1| GTPase KRas isoform X1 [Harpia harpyja] &gt;ref|XP_052644760.1| GTPase KRas isoform X1 [Harpia harpyja] &gt;ref|XP_052644761.1| GTPase KRas isoform X1 [Harpia harpyja] &gt;ref|XP_053798845.1| GTPase KRas isoform X1 [Vidua chalybeata] &gt;ref|XP_053798846.1| GTPase KRas isoform X1 [Vidua chalybeata] &gt;ref|XP_053833729.1| GTPase KRas isoform X1 [Vidua macroura] &gt;ref|XP_053833730.1| GTPase KRas isoform X1 [Vidua macroura] &gt;ref|XP_053892917.1| GTPase KRas isoform X3 [Malaclemys terrapin pileata] &gt;ref|XP_054068480.1| GTPase KRas isoform X1 [Rissa tridactyla] &gt;ref|XP_054068488.1| GTPase KRas isoform X1 [Rissa tridactyla] &gt;ref|XP_054068497.1| GTPase KRas isoform X1 [Rissa tridactyla] &gt;ref|XP_054068504.1| GTPase KRas isoform X1 [Rissa tridactyla] &gt;ref|XP_054068511.1| GTPase KRas isoform X1 [Rissa tridactyla] &gt;ref|XP_054068517.1| GTPase KRas isoform X1 [Rissa tridactyla] &gt;ref|XP_054658733.1| GTPase KRas isoform X11 [Grus americana] &gt;ref|XP_056338418.1| GTPase KRas isoform X1 [Oenanthe melanoleuca] &gt;ref|XP_056338419.1| GTPase KRas isoform X1 [Oenanthe melanoleuca] &gt;ref|XP_056338420.1| GTPase KRas isoform X1 [Oenanthe melanoleuca] &gt;ref|XP_057226510.1| GTPase KRas isoform X1 [Malurus melanocephalus] &gt;ref|XP_057226511.1| GTPase KRas isoform X1 [Malurus melanocephalus] &gt;ref|XP_057226512.1| GTPase KRas isoform X1 [Malurus melanocephalus] &gt;ref|XP_057226513.1| GTPase KRas isoform X1 [Malurus melanocephalus] &gt;ref|XP_059702009.1| GTPase KRas isoform X1 [Haemorhous mexicanus] &gt;ref|XP_059702010.1| GTPase KRas isoform X1 [Haemorhous mexicanus] &gt;ref|XP_059702011.1| GTPase KRas isoform X1 [Haemorhous mexicanus] &gt;ref|XP_059702012.1| GTPase KRas isoform X1 [Haemorhous mexicanus] &gt;ref|XP_061864805.1| GTPase KRas isoform X1 [Colius striatus] &gt;ref|XP_061864815.1| GTPase KRas isoform X1 [Colius striatus] &gt;ref|XP_061864822.1| GTPase KRas isoform X1 [Colius striatus] &gt;ref|XP_063251586.1| GTPase KRas isoform X1 [Prinia subflava] &gt;ref|XP_063251591.1| GTPase KRas isoform X1 [Prinia subflava] &gt;ref|XP_064276857.1| GTPase KRas isoform X1 [Passer domesticus] &gt;ref|XP_064276858.1| GTPase KRas isoform X1 [Passer domesticus] &gt;ref|XP_064316314.1| GTPase KRas isoform X1 [Phalacrocorax carbo] &gt;ref|XP_064316324.1| GTPase KRas isoform X1 [Phalacrocorax carbo] &gt;ref|XP_064316333.1| GTPase KRas isoform X1 [Phalacrocorax carbo] &gt;ref|XP_064316343.1| GTPase KRas isoform X1 [Phalacrocorax carbo] &gt;ref|XP_065254676.1| GTPase KRas isoform X1 [Emys orbicularis] &gt;ref|XP_066039854.1| GTPase KRas isoform X1 [Chamaea fasciata] &gt;ref|XP_066039855.1| GTPase KRas isoform X1 [Chamaea fasciata] &gt;ref|XP_066039856.1| GTPase KRas isoform X1 [Chamaea fasciata] &gt;ref|XP_066175762.1| GTPase KRas isoform X1 [Sylvia atricapilla] &gt;ref|XP_066175763.1| GTPase KRas isoform X1 [Sylvia atricapilla] &gt;ref|XP_066175764.1| GTPase KRas isoform X1 [Sylvia atricapilla] &gt;ref|XP_067162022.1| GTPase KRas isoform X1 [Apteryx mantelli] &gt;ref|XP_067415360.1| GTPase KRas isoform X1 [Emydura macquarii macquarii] &gt;ref|XP_068046844.1| GTPase KRas isoform X1 [Anomalospiza imberbis] &gt;ref|XP_068046845.1| GTPase KRas isoform X1 [Anomalospiza imberbis] &gt;ref|XP_068046847.1| GTPase KRas isoform X1 [Anomalospiza imberbis] &gt;ref|XP_068511829.1| GTPase KRas isoform X1 [Anas acuta] &gt;ref|XP_068859363.1| GTPase KRas isoform X1 [Aphelocoma coerulescens] &gt;ref|XP_068859364.1| GTPase KRas isoform X1 [Aphelocoma coerulescens] &gt;ref|XP_068859365.1| GTPase KRas isoform X1 [Aphelocoma coerulescens] &gt;ref|XP_069662771.1| GTPase KRas isoform X1 [Haliaeetus albicilla] &gt;ref|XP_069662772.1| GTPase KRas isoform X1 [Haliaeetus albicilla] &gt;ref|XP_069662773.1| GTPase KRas isoform X1 [Haliaeetus albicilla] &gt;ref|XP_069662774.1| GTPase KRas isoform X1 [Haliaeetus albicilla] &gt;ref|XP_069718871.1| GTPase KRas isoform X1 [Phaenicophaeus curvirostris] &gt;ref|XP_072779861.1| GTPase KRas isoform X1 [Taeniopygia guttata] &gt;ref|XP_072779862.1| GTPase KRas isoform X1 [Taeniopygia guttata] &gt;ref|XP_072779863.1| GTPase KRas isoform X1 [Taeniopygia guttata] &gt;ref|XP_073173996.1| GTPase KRas isoform X3 [Lepidochelys kempii] &gt;ref|XP_073174004.1| GTPase KRas isoform X3 [Lepidochelys kempii] &gt;ref|XP_074395264.1| GTPase KRas isoform X1 [Zonotrichia albicollis] &gt;ref|XP_074395265.1| GTPase KRas isoform X1 [Zonotrichia albicollis] &gt;ref|XP_074443341.1| GTPase KRas isoform X1 [Larus michahellis] &gt;ref|XP_074443351.1| GTPase KRas isoform X1 [Larus michahellis] &gt;ref|XP_074682533.1| GTPase KRas isoform X1 [Strix aluco] &gt;ref|XP_074682534.1| GTPase KRas isoform X1 [Strix aluco] &gt;ref|XP_074682535.1| GTPase KRas isoform X1 [Strix aluco] &gt;ref|XP_074682536.1| GTPase KRas isoform X1 [Strix aluco] &gt;ref|XP_074682537.1| GTPase KRas isoform X1 [Strix aluco] &gt;ref|XP_074682538.1| GTPase KRas isoform X1 [Strix aluco] &gt;ref|XP_074727468.1| GTPase KRas isoform X1 [Strix uralensis] &gt;ref|XP_074727469.1| GTPase KRas isoform X1 [Strix uralensis] &gt;ref|XP_074727470.1| GTPase KRas isoform X1 [Strix uralensis] &gt;ref|XP_074727472.1| GTPase KRas isoform X1 [Strix uralensis] &gt;ref|XP_074727473.1| GTPase KRas isoform X1 [Strix uralensis] &gt;ref|XP_074727474.1| GTPase KRas isoform X1 [Strix uralensis] &gt;ref|XP_074793557.1| GTPase KRas isoform X3 [Natator depressus] &gt;ref|XP_074793565.1| GTPase KRas isoform X3 [Natator depressus] &gt;ref|XP_074860648.1| GTPase KRas isoform X1 [Carettochelys insculpta] &gt;ref|XP_074860659.1| GTPase KRas isoform X1 [Carettochelys insculpta] &gt;ref|XP_074860668.1| GTPase KRas isoform X1 [Carettochelys insculpta] &gt;ref|XP_074907579.1| GTPase KRas isoform X2 [Buteo buteo] &gt;ref|XP_074969806.1| GTPase KRas isoform X1 [Phalacrocorax aristotelis] &gt;ref|XP_074969812.1| GTPase KRas isoform X1 [Phalacrocorax aristotelis] &gt;ref|XP_074969821.1| GTPase KRas isoform X1 [Phalacrocorax aristotelis] &gt;ref|XP_074969830.1| GTPase KRas isoform X1 [Phalacrocorax aristotelis] &gt;ref|XP_075017137.1| GTPase KRas isoform X1 [Calonectris borealis] &gt;ref|XP_075017146.1| GTPase KRas isoform X1 [Calonectris borealis] &gt;ref|XP_075017157.1| GTPase KRas isoform X1 [Calonectris borealis] &gt;ref|XP_075754748.1| GTPase KRas isoform X2 [Pelodiscus sinensis] &gt;ref|XP_076199417.1| GTPase KRas isoform X1 [Aptenodytes patagonicus] &gt;ref|XP_076199418.1| GTPase KRas isoform X1 [Aptenodytes patagonicus] &gt;ref|XP_076199419.1| GTPase KRas isoform X1 [Aptenodytes patagonicus] &gt;ref|XP_076199421.1| GTPase KRas isoform X1 [Aptenodytes patagonicus] &gt;ref|XP_076199422.1| GTPase KRas isoform X1 [Aptenodytes patagonicus] &gt;gb|KAF2987013.1| hypothetical protein EK904_006986 [Melospiza melodia maxima] &gt;gb|KFP56115.1| GTPase KRas [Cariama cristata] &gt;gb|NWI40034.1| RASK GTPase [Picathartes gymnocephalus] &gt;gb|NXT14479.1| RASK GTPase [Prunella fulvescens] &gt;gb|NXY61789.1| RASK GTPase [Callaeas wilsoni] &gt;gb|RLW01868.1| hypothetical protein DV515_00007638 [Chloebia gouldiae]</Hit_def>
+  <Hit_accession>XP_009277301</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>8.95279e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRVKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_023593788.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Trichechus manatus latirostris] &gt;ref|XP_023593790.1| GTPase KRas isoform X1 [Trichechus manatus latirostris] &gt;ref|XP_023593791.1| GTPase KRas isoform X1 [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_023593788</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>9.66764e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEETPGCVKVKKCIVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEE+TPGCVK+KKCI+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_003792512.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Otolemur garnettii] &gt;ref|XP_012595012.1| GTPase KRas isoform X3 [Microcebus murinus] &gt;ref|XP_053410342.1| GTPase KRas isoform X3 [Nycticebus coucang] &gt;ref|XP_069347970.1| GTPase KRas isoform X2 [Eulemur rufifrons]</Hit_def>
+  <Hit_accession>XP_003792512</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>9.9523e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLRKINKEEKTPGCVKIKKCIIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRL+KI+KEEKTPGCVKIKKCIIM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_057283997.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X3 [Pezoporus wallicus] &gt;ref|XP_061328135.1| GTPase KRas isoform X3 [Pezoporus flaviventris] &gt;ref|XP_062490767.1| GTPase KRas isoform X4 [Pezoporus occidentalis]</Hit_def>
+  <Hit_accession>XP_057283997</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>1.03987e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRMKKVSKEEKTPGCVKIKKCLIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KK+SKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_019371237.1|</Hit_id>
+  <Hit_def>PREDICTED: GTPase KRas isoform X3 [Gavialis gangeticus]</Hit_def>
+  <Hit_accession>XP_019371237</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>1.03987e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRMKKISKEEKTPGCVKIKKCLVM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KKISKEEKTPGCVKIKKC++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_068805938.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X4 [Struthio camelus]</Hit_def>
+  <Hit_accession>XP_068805938</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>1.03987e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRVKKISKEEKTPGCVKIKKCLIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYR+KKISKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_073931942.1|</Hit_id>
+  <Hit_def>GTPase KRas isoform X1 [Castor canadensis] &gt;ref|XP_073931943.1| GTPase KRas isoform X1 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_073931942</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>1.04396e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM</Hsp_qseq>
+      <Hsp_hseq>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLNKVSKEEKTPGCVKIKKCVIM</Hsp_hseq>
+      <Hsp_midline>MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRL K+SKEEKTPGCVKIKKC+IM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>979788021</Statistics_db-num>
+      <Statistics_db-len>372022192881</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
