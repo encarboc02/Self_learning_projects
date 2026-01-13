@@ -13,6 +13,8 @@ The goal is to identify patterns of serious and non-serious outcomes, explore pa
 - Develop predictive models (Random Forest and Logistic Regression) to identify factors associated with serious adverse events.
 - Visualize top adverse reactions for patients with and without serious outcomes.
 
+--- 
+
 ## Workflow
 1. **Data Acquisition**  
    Download FAERS datasets (DEMO, DRUG, REAC, OUTC) for the latest quarter.
