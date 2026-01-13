@@ -160,9 +160,9 @@ LR.fit(x_train, y_train)
 y_pred_LR = LR.predict(x_test)
 print(classification_report(y_test, y_pred_LR))
 
-# Al aplicar ponderación de clases para abordar el desbalance de los datos, el modelo mejora notablemente su capacidad para identificar eventos adversos graves, alcanzando un recall del 46% en la clase de interés
+# By applying class weighting to address data imbalance, the model significantly improves its ability to identify serious adverse events, achieving a recall of 46% for the class of interest.
 
-## Métricas para comprobar el modelos de amchine learning
+## Metrics to evaluate the machine learning models
 confusion_matrix(y_test, y_pred_LR)
 
 y_proba= LR.predict_proba(x_test)[:,1]
@@ -201,3 +201,4 @@ plt.show()
 # 1. The number of drugs combined with Ozempic is the most relevant factor in the dataframe for predicting serious outcomes.  
 # 2. Adverse reactions (Emotional distress, Nausea, Dehydration, and Vomiting) could serve as risk indicators.  
 # 3. Predictive models are subject to limitations due to the inherently noisy nature of FAERS data.
+
