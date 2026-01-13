@@ -28,6 +28,8 @@ Este proyecto analiza los reportes de efectos adversos relacionados con el fárm
   -  Modelado predictivo
   -  Análisis de reacciones adversas específicas
 
+---
+
 ## Conclusiones (también en el script)
   - El número de fármacos combinados con Ozempic es el factor más relevante del Dataframe para predecir efectos graves
   - Las reacciones adversas (Emotional distress, Nausea, Dehydration y Vomiting) podrían servir como indicadores de riesgo
