@@ -16,7 +16,7 @@ Este proyecto analiza los reportes de efectos adversos relacionados con el fárm
 ## Archivos descargados utilizados
   - DEMO25Q3.txt (información demográfica)
   - DRUG25Q3.txt (Medicamentos reportados)
-  - REAC23Q3.txt (Efectos adversos)
+  - REAC25Q3.txt (Efectos adversos)
   - OUTC25Q3.txt (Resultados clínicos del paciente)
 
 ---
