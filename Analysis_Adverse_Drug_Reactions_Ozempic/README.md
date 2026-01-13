@@ -43,9 +43,9 @@ The goal is to identify patterns of serious and non-serious outcomes, explore pa
 --- 
 
 ## Conclusions
-  - 1. The number of drugs combined with Ozempic is the most relevant factor in the dataframe for predicting serious outcomes.  
-  - 2. Adverse reactions (Emotional distress, Nausea, Dehydration, and Vomiting) could serve as risk indicators.  
-  - 3. Predictive models are subject to limitations due to the inherently noisy nature of FAERS data.
+  - The number of drugs combined with Ozempic is the most relevant factor in the dataframe for predicting serious outcomes.  
+  - Adverse reactions (Emotional distress, Nausea, Dehydration, and Vomiting) could serve as risk indicators.  
+  - Predictive models are subject to limitations due to the inherently noisy nature of FAERS data.
    
        
 
